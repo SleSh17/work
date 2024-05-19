@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+}
+body {
+    min-height: 120vh;
+    background: linear-gradient(rgb(17, 17, 230) 10%, rgb(13, 13, 158) 30%, rgb(13, 2, 104) 60%);
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 75px;
+    padding: 0 50px;
+
+}
+.nav-item {
+    margin: 0 45px;
+    color: white;
+    text-decoration: none;
+
+}
+nav a{
+    color: white;
+}
+.dropdown-item{
+    color: black;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px violet;
+}
+.block-1 h1{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+.block-2 h2{
+    color: white;
+}
+.block-1 h1:hover{
+    text-shadow: 5px 5px 5px red;
+}
+.block-2 h2{
+    margin: 0 40px 0 20px;
+    color: white;
+}
+.block-2 h2 a{
+    color: white;
+}
+.block-2 h2 a:hover{
+   text-decoration: none;
+   text-shadow: 0 0 5px rgb(55, 160, 224), 0 0 10px rgb(55, 160, 224), 0 0 15px rgb(55, 160, 224), 0 0 20px rgb(55, 160, 224), 0 0 35px rgb(55, 160, 224), 0 0 55px rgb(55, 160, 224), 0 0 75px white;
+}
+.block-3 h1{
+    font-family: 'Open Sans';
+    color: white;
+}
+.nav li{
+    margin-top: 13px;
+}
